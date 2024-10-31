@@ -1,0 +1,15 @@
+{
+  "name": "passionweb/custom_extension_development",
+  "description": "Showcase of custom extension development in TYPO3",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "homepage": "https://www.passionweb.de",
+  "authors": [
+    {
+      "name": "Manuel Schnabel",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+  }
+}
