@@ -1,20 +1,16 @@
-# Custom permission options
+# Custom extension basics
 
-Shows the integration of custom permission options. (TYPO3 CMS)
+Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 ## What does it do?
 
-1.0.0: Extending the backend user groups permission interface by additional custom options.
-
-1.1.0: Shows example usage of custom permissions in backend module.
-
-2.0.0: Add v13 compatibility
+1.0.0: Registered minimal extension in the TYPO3 project
 
 ## Installation
 
 Add via composer:
 
-    composer require "passionweb/custom-permission-options"
+    composer require "passionweb/extension-basics"
 
 * Install the extension via composer
 * Flush TYPO3 and PHP Cache

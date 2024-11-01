@@ -1,5 +1,5 @@
 {
-  "name": "passionweb/custom_extension_development",
+  "name": "passionweb/extension-basics",
   "description": "Showcase of custom extension development in TYPO3",
   "minimum-stability": "stable",
   "version": "1.0.0",
