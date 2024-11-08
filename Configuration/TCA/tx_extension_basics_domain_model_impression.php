@@ -7,7 +7,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'delete' => 'deleted',
-        'default_sortby' => 'input',
+        'default_sortby' => 'title',
         'iconfile' => 'EXT:extension_basics/Resources/Public/Icons/Extension.svg',
         'searchFields' => 'title, teaser, bodytext',
         'enablecolumns' => [
@@ -45,10 +45,8 @@ return [
         'bodytext' => [
             'label' => 'Text',
             'config' => [
-                'type' => 'input',
-                'size' => 40,
-                'max' => 255,
-                'eval' => 'trim',
+                'type' => 'text',
+                'enableRichtext' => true,
                 'required' => true,
             ],
         ],
@@ -63,11 +61,10 @@ return [
     ],
     'types' => [
         1 => [
-            'showitem' => '--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-                    input, pi_flexform,
-                 --div--;Impressionen,
-                    --palette--;;hidden,
-                    --palette--;;access,',
+            'showitem' => '
+            --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
+            title, teaser, bodytext, image,
+            --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden,'
         ],
     ],
 ];

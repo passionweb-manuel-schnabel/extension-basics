@@ -1,14 +1,19 @@
 <?php
 
 namespace Passionweb\ExtensionBasics\Domain\Model;
+
+use TYPO3\CMS\Extbase\Domain\Model\FileReference;
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
 class Impression extends AbstractEntity
 {
     protected string $title = '';
+
     protected string $teaser = '';
+
     protected string $bodytext = '';
-    protected int $image = 0;
+
+    protected ?FileReference $image = null;
 
     public function getTitle(): string
     {
@@ -40,12 +45,12 @@ class Impression extends AbstractEntity
         $this->bodytext = $bodytext;
     }
 
-    public function getImage(): string
+    public function getImage(): ?FileReference
     {
         return $this->image;
     }
 
-    public function setImage(string $image): void
+    public function setImage(?FileReference $image): void
     {
         $this->image = $image;
     }
