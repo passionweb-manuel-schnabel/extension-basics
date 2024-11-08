@@ -6,6 +6,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.0.0: Registered minimal extension in the TYPO3 project
 
+1.1.0: Added table structure, model, repository and TCA config for "Impressions" ("Analyze database" required)
+
 ## Installation
 
 Add via composer:
