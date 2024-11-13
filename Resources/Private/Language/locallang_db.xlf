@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:extension_basics/Resources/Private/Language/locallang_db.xlf" date="2024-11-13T18:20:51Z" product-name="extension_basics">
+        <header/>
+        <body>
+            <trans-unit id="tx_extension_basics_domain_model_impression" resname="tx_extension_basics_domain_model_impression">
+                <source>Impression</source>
+            </trans-unit>
+            <trans-unit id="tx_extension_basics_domain_model_impression.title" resname="tx_extension_basics_domain_model_impression.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_extension_basics_domain_model_impression.teaser" resname="tx_extension_basics_domain_model_impression.teaser">
+                <source>Teaser</source>
+            </trans-unit>
+            <trans-unit id="tx_extension_basics_domain_model_impression.bodytext" resname="tx_extension_basics_domain_model_impression.bodytext">
+                <source>Bodytext</source>
+            </trans-unit>
+            <trans-unit id="tx_extension_basics_domain_model_impression.image" resname="tx_extension_basics_domain_model_impression.image">
+                <source>Image</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

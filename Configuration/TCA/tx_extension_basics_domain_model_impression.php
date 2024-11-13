@@ -2,7 +2,7 @@
 
 return [
     'ctrl' => [
-        'title' => 'Impression',
+        'title' => 'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics_domain_model_impression',
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -23,7 +23,7 @@ return [
     ],
     'columns' => [
         'title' => [
-            'label' => 'Title',
+            'label' => 'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics_domain_model_impression.title',
             'config' => [
                 'type' => 'input',
                 'size' => 40,
@@ -33,7 +33,7 @@ return [
             ],
         ],
         'teaser' => [
-            'label' => 'Teaser',
+            'label' => 'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics_domain_model_impression.teaser',
             'config' => [
                 'type' => 'input',
                 'size' => 40,
@@ -43,7 +43,7 @@ return [
             ],
         ],
         'bodytext' => [
-            'label' => 'Text',
+            'label' => 'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics_domain_model_impression.bodytext',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
@@ -51,7 +51,7 @@ return [
             ],
         ],
         'image' => [
-            'label' => 'Image',
+            'label' => 'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics_domain_model_impression.image',
             'config' => [
                 'type' => 'file',
                 'maxitems' => 1,
