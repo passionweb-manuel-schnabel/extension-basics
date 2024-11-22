@@ -18,8 +18,11 @@
             <trans-unit id="tx_extension_basics_domain_model_impression.image" resname="tx_extension_basics_domain_model_impression.image">
                 <source>Image</source>
             </trans-unit>
-            <trans-unit id="plugin.impression" resname="plugin.impression">
-                <source>Plugin for printing custom Impressions</source>
+            <trans-unit id="plugin.impression.title" resname="plugin.impression.title">
+                <source>Impressions</source>
+            </trans-unit>
+            <trans-unit id="plugin.impression.description" resname="plugin.impression.description">
+                <source>Plugin for printing custom impressions</source>
             </trans-unit>
         </body>
     </file>
