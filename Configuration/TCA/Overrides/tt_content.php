@@ -4,6 +4,6 @@ defined('TYPO3') || die();
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'ExtensionBasics',
     'Impression',
-    'Plugin for custom Impressions'
+    'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:plugin.impression'
 );
 
