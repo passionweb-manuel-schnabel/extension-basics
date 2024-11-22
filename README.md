@@ -10,7 +10,7 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.2.0: Added translation files (XLIFF files) and translated labels in TCA config
 
-1.3.0: Added ImpressionController, registration and corresponding templates
+1.3.0: Added controller, plugin registration and necessary files/templates
 
 ## Installation
 
