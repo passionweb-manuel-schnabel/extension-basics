@@ -8,6 +8,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.1.0: Added table structure, model, repository and TCA config for "Impressions" ("Analyze database" required)
 
+1.2.0: Added translation files (XLIFF files) and translated labels in TCA config
+
 ## Installation
 
 Add via composer:
