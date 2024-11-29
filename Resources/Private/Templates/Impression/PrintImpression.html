@@ -3,6 +3,15 @@
 
 <f:section name="main">
     <f:debug>{_all}</f:debug>
-    <h1>Custom Impression Template loaded!</h1>
+    <h1>Custom Impressions</h1>
+    <div class="container">
+        <f:for each="{impressions}" as="impression">
+            <div class="row">
+                <h2>Title: {impression.title}</h2>
+                <h3>Teaser: {impression.teaser}</h3>
+                <f:format.html>Bodytext: {impression.bodytext}</f:format.html>
+            </div>
+        </f:for>
+    </div>
 </f:section>
 </html>
