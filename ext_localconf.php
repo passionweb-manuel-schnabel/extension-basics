@@ -10,5 +10,8 @@ ExtensionUtility::configurePlugin(
     'Impression',
     [
         ImpressionController::class => 'printImpression'
+    ],
+    [
+        ImpressionController::class => 'printImpression'
     ]
 );
