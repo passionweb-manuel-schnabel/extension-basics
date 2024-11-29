@@ -12,6 +12,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.3.0: Added controller, plugin registration and necessary files/templates
 
+1.4.0: Fetching data from repository and giving it to view/templates
+
 ## Installation
 
 Add via composer:
