@@ -20,6 +20,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.7.0: Adding styles/javascript to templates (AssetCollector)
 
+1.8.0: Added usage of FlexForms
+
 ## Installation
 
 Add via composer:

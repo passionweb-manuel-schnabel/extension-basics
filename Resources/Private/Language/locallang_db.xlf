@@ -24,6 +24,21 @@
             <trans-unit id="plugin.impression.description" resname="plugin.impression.description">
                 <source>Plugin for printing custom impressions</source>
             </trans-unit>
+            <trans-unit id="tx_extension_basics.pi_flexform.sheetGeneral" resname="tx_extension_basics.pi_flexform.sheetGeneral">
+                <source>Advanced Options</source>
+            </trans-unit>
+            <trans-unit id="tx_extension_basics.pi_flexform.filterCustomEntries" resname="tx_extension_basics.pi_flexform.filterCustomEntries">
+                <source>Filter custom Entries</source>
+            </trans-unit>
+            <trans-unit id="flexforms_select.all" resname="flexforms_select.all">
+                <source>Show all entries</source>
+            </trans-unit>
+            <trans-unit id="flexforms_select.impressions" resname="flexforms_select.impressions">
+                <source>Show impressions only</source>
+            </trans-unit>
+            <trans-unit id="flexforms_select.codebreaks" resname="flexforms_select.codebreaks">
+                <source>Show codebreaks only</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

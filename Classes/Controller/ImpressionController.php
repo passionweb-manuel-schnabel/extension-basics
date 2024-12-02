@@ -16,7 +16,12 @@ class ImpressionController extends ActionController
 
     public function printImpressionAction() : ResponseInterface
     {
-        $this->view->assign('impressions', $this->impressionRepository->findAll());
+        if((int) $this->settings["filterEntries"] === -1) {
+            $impressions = $this->impressionRepository->findAll();
+        } else {
+            $impressions = $this->impressionRepository->findByCategory($this->settings["filterEntries"]);
+        }
+        $this->view->assign('impressions', $impressions);
         return $this->htmlResponse();
     }
 }

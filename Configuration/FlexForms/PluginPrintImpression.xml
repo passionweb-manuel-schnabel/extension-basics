@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>
+                    LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics.pi_flexform.sheetGeneral
+                </sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.filterEntries>
+                        <label>
+                            LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:tx_extension_basics.pi_flexform.filterCustomEntries
+                        </label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <items>
+                                <numIndex index="0" type="array">
+                                    <label/>
+                                    <value/>
+                                </numIndex>
+                                <numIndex index="1">
+                                    <label>
+                                        LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:flexforms_select.all
+                                    </label>
+                                    <value>-1</value>
+                                </numIndex>
+                                <numIndex index="2">
+                                    <label>
+                                        LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:flexforms_select.impressions
+                                    </label>
+                                    <value>1</value>
+                                </numIndex>
+                                <numIndex index="3">
+                                    <label>
+                                        LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:flexforms_select.codebreaks
+                                    </label>
+                                    <value>2</value>
+                                </numIndex>
+                            </items>
+                        </config>
+                    </settings.filterEntries>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>
