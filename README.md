@@ -14,6 +14,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.4.0: Fetching data from repository and giving it to view/templates
 
+1.5.0: Added reusable fluid snippet (Partial)
+
 ## Installation
 
 Add via composer:

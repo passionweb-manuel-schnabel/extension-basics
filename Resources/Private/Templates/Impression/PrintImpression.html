@@ -3,9 +3,7 @@
 <f:section name="main">
     <h1>Custom Impressions</h1>
     <f:for each="{impressions}" as="impression">
-        <h2>Title: {impression.title}</h2>
-        <h3>Teaser: {impression.teaser}</h3>
-        <f:format.html>Bodytext: {impression.bodytext}</f:format.html>
+        <f:render partial="Impression" arguments="{imp:impression}"/>
     </f:for>
 </f:section>
 </html>
