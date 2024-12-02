@@ -1,4 +1,13 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true" lang="de">
-<h2>Title: {imp.title}</h2>
-<h3>Teaser: {imp.teaser}</h3>
-<f:format.html>Bodytext: {imp.bodytext}</f:format.html>
+<f:asset.css identifier="impressionCss" href="EXT:extension_basics/Resources/Public/Css/impression.css" />
+<f:asset.script identifier="impressionJs" src="EXT:extension_basics/Resources/Public/JavaScript/impression.js" />
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{imp.title}</h5>
+        <p class="card-text">
+            <f:format.html>{imp.bodytext}</f:format.html>
+        </p>
+        <a href="#" class="btn btn-primary" id="{imp.uid}">Show impression uid</a>
+    </div>
+</div>

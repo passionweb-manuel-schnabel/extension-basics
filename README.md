@@ -18,6 +18,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.6.0: Using "sys_categories" within extension
 
+1.7.0: Adding styles/javascript to templates (AssetCollector)
+
 ## Installation
 
 Add via composer:
