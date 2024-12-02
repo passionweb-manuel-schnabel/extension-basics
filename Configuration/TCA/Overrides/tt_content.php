@@ -10,3 +10,7 @@ defined('TYPO3') || die();
     'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:plugin.impression.description'
 );
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tx_extensionbasics_domain_model_impression',
+    'categories'
+);

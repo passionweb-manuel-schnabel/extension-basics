@@ -16,6 +16,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.5.0: Added reusable fluid snippet (Partial)
 
+1.6.0: Using "sys_categories" within extension
+
 ## Installation
 
 Add via composer:

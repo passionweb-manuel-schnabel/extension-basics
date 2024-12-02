@@ -57,13 +57,18 @@ return [
                 'maxitems' => 1,
                 'allowed' => 'common-image-types'
             ]
+        ],
+        'categories' => [
+            'config' =>[
+                'type' => 'category'
+            ]
         ]
     ],
     'types' => [
         1 => [
             'showitem' => '
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-            title, teaser, bodytext, image,
+            title, teaser, bodytext, image, categories,
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden,'
         ],
     ],
