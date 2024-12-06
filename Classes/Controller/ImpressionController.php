@@ -4,12 +4,14 @@ namespace Passionweb\ExtensionBasics\Controller;
 
 use Passionweb\ExtensionBasics\Domain\Repository\ImpressionRepository;
 use Psr\Http\Message\ResponseInterface;
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class ImpressionController extends ActionController
 {
     protected ImpressionRepository $impressionRepository;
-    public function __construct(ImpressionRepository $impressionRepository)
+
+    public function __construct(ImpressionRepository $impressionRepository, private readonly ExtensionConfiguration $extensionConfiguration)
     {
         $this->impressionRepository = $impressionRepository;
     }
@@ -22,6 +24,8 @@ class ImpressionController extends ActionController
             $impressions = $this->impressionRepository->findByCategory($this->settings["filterEntries"]);
         }
         $this->view->assign('impressions', $impressions);
+        $detailpageUid = $this->extensionConfiguration->get('extension_basics', 'detailpageUid');
+        $this->view->assign('detailpageUid', $detailpageUid);
         return $this->htmlResponse();
     }
 

@@ -3,7 +3,7 @@
 <f:section name="main">
     <div class="d-flex">
         <f:for each="{impressions}" as="impression">
-            <f:render partial="Impression" arguments="{imp:impression}"/>
+            <f:render partial="Impression" arguments="{imp:impression, detailpageUid:detailpageUid}"/>
         </f:for>
     </div>
 </f:section>

@@ -24,6 +24,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.9.0: Added RouteEnhancer for detail pages
 
+1.10.0: Added extension configuration for detail page
+
 ## Installation
 
 Add via composer:

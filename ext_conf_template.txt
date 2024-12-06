@@ -1,0 +1,2 @@
+# cat=Backend; type=string; label=detailpageUid: Select Uid of impression detail page
+detailpageUid =
