@@ -15,3 +15,14 @@ ExtensionUtility::configurePlugin(
         ImpressionController::class => 'printImpression'
     ]
 );
+
+ExtensionUtility::configurePlugin(
+    'ExtensionBasics',
+    'ImpressionDetails',
+    [
+        ImpressionController::class => 'printDetailedImpression'
+    ],
+    [
+        ImpressionController::class => 'printDetailedImpression'
+    ]
+);

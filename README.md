@@ -22,6 +22,8 @@ Shows the integration of custom extensions and basic workflows. (TYPO3 CMS)
 
 1.8.0: Added usage of FlexForms
 
+1.9.0: Added RouteEnhancer for detail pages
+
 ## Installation
 
 Add via composer:
@@ -38,6 +40,30 @@ This example uses no 3rd party libraries.
 ## Extension settings
 
 There are no extension settings available.
+
+## Route Enhancer Configuration
+
+```yaml
+    routeEnhancers:
+      ImpressionRouteEnhancer:
+        type: Extbase
+        limitToPages:
+          - PAGE_UID
+        extension: ExtensionBasics
+        plugin: ImpressionDetails
+        defaultController: 'Impression::printDetailedImpression'
+        routes:
+          -
+            routePath: '/{impression}'
+            _controller: 'Impression::printDetailedImpression'
+            _arguments:
+              impression: impression
+        aspects:
+          impression:
+            type: PersistedAliasMapper
+            tableName: tx_extensionbasics_domain_model_impression
+            routeFieldName: uid
+```
 
 ## Troubleshooting and logging
 

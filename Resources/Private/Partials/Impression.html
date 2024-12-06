@@ -8,6 +8,13 @@
         <p class="card-text">
             <f:format.html>{imp.bodytext}</f:format.html>
         </p>
-        <a href="#" class="btn btn-primary" id="{imp.uid}">Show impression uid</a>
+        <a href="#" class="btn btn-primary" id="{imp.uid}">
+            <f:translate key="LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:impression_popup"/>
+        </a>
+        <div class="detail-link">
+            <f:link.action pageUid="48" action="printDetailedImpression" arguments="{impression:imp}">
+                <f:translate key="LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:impression_details"/>
+            </f:link.action>
+        </div>
     </div>
 </div>

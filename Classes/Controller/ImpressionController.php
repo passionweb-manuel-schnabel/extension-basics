@@ -24,4 +24,12 @@ class ImpressionController extends ActionController
         $this->view->assign('impressions', $impressions);
         return $this->htmlResponse();
     }
+
+    public function printDetailedImpressionAction() : ResponseInterface
+    {
+        if($this->request->hasArgument('impression')){
+            $this->view->assign('impression', $this->impressionRepository->findByUid($this->request->getArgument('impression')));
+        }
+        return $this->htmlResponse();
+    }
 }

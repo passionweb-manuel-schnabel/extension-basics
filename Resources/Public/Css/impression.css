@@ -2,3 +2,10 @@
     width: 18rem;
     margin-right: 1rem;
 }
+a{
+    margin: 1em 0 0 0
+}
+.detail-link{
+    margin: 1em;
+    font-weight: bold;
+}

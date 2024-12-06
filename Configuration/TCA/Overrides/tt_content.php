@@ -13,6 +13,15 @@ $pluginSignature = \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:plugin.impression.description'
 );
 
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+    'ExtensionBasics',
+    'ImpressionDetails',
+    'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:plugin.impressiondetails.title',
+    'tx-extensionbasics-plugin-impression',
+    'plugins',
+    'LLL:EXT:extension_basics/Resources/Private/Language/locallang_db.xlf:plugin.impressiondetails.description'
+);
+
 ExtensionManagementUtility::addToAllTCAtypes(
     'tx_extensionbasics_domain_model_impression',
     'categories'
